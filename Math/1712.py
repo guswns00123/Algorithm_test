@@ -1,6 +1,6 @@
 import sys
 
-#손익분기점
+#break even point
 
 # (C * X) - (A + B * X) > 0
 # C * X = A + BX 
@@ -10,5 +10,5 @@ import sys
 a, b, c = map(int, sys.stdin.readline().split())
 print(a // (c-b) + 1 if c > b else -1 )
 
-#런타임 에러 : ans = a // (c-b) 를
+#runtime err : ans = a // (c-b) 를
 #먼저 계산시 c-b = 0일경우 고려 안햇음

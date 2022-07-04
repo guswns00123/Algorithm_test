@@ -7,5 +7,6 @@ a,b,c = map(int, sys.stdin.readline().split())
 x =(c - b ) // (a - b)
 if (c - b ) % (a - b) == 0:
     print(x)
+
 else:
     print(x+1)

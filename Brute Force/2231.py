@@ -8,7 +8,7 @@ import math
 
 n = int(sys.stdin.readline())
 k = 1 #k를 1부터 체크해야댐
-# 
+
 flag = 0
 # print(m,k)
 while True:

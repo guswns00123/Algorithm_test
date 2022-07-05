@@ -1,7 +1,7 @@
 import sys
 
 n = int(sys.stdin.readline())
-
+#덩치크기 순위 정하기 문제
 l = []
 for i in range(n):
     a = list(map(int,sys.stdin.readline().split())) #(55, 185)를 list화해서 입력
